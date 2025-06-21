@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+  0%, 100% {
+    background-color: #FFEB3B;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+.highlight-animation {
+  animation: blink 1s ease;
+}
